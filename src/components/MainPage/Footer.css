@@ -1,0 +1,18 @@
+footer {
+  background: grey;
+  opacity: 0.9;
+  text-align: center;
+  padding: 1px;
+  /*you could also get rid of the .wrapper justify-content and use margin-top: auto*/
+}
+/*Change these generic media queries to suit your needs, especially with retina displays*/
+@media screen and (max-width: 568px) {
+  h1 {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
